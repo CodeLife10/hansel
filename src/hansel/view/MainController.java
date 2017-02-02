@@ -1,4 +1,4 @@
-package uk.co.anthonygrimes.view;
+package hansel.view;
 
 import javafx.fxml.Initializable;
 import javafx.scene.layout.BorderPane;
