@@ -19,7 +19,12 @@ public class Main extends Application {
 
         BorderPane root = FXMLLoader.load(getClass().getResource("view/Main.FXML"));
         Node playlists = FXMLLoader.load(getClass().getResource("view/Playlists.FXML"));
+        Node library = FXMLLoader.load(getClass().getResource(("view/Library.FXML")));
+        Node controlBar = FXMLLoader.load(getClass().getResource(("view/ControlBar.FXML")));
+
         root.setLeft(playlists);
+        root.setCenter(library);
+        root.setBottom(controlBar);
 
         primaryStage.setTitle("Hansel - Music Player");
         primaryStage.setScene(new Scene(root, 990, 660));
