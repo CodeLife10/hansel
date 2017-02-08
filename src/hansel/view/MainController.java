@@ -46,6 +46,10 @@ public class MainController implements Initializable{
         fileChooser.setInitialDirectory(
                 new File(System.getProperty("user.home"))
         );
+
+        fileChooser.getExtensionFilters().addAll(
+                new FileChooser.ExtensionFilter("mp3", "*.mp3")
+        );
     }
 
 
