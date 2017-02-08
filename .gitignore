@@ -161,3 +161,6 @@ modules.xml
 *.ipr
 
 # End of https://www.gitignore.io/api/linux,macos,jetbrains,intellij,intellij+iml
+/test/nbproject/private/
+/test/build/
+/test/dist/
