@@ -28,7 +28,7 @@
                      <children>
                         <HBox prefWidth="660.0">
                            <children>
-                              <Label text="Artist">
+                              <Label fx:id="lblArtist" text="Artist">
                                  <font>
                                     <Font size="32.0" />
                                  </font>
@@ -37,7 +37,7 @@
                         </HBox>
                         <HBox prefWidth="660.0">
                            <children>
-                              <Label text="Album">
+                              <Label fx:id="lblAlbum" text="Album">
                                  <font>
                                     <Font size="32.0" />
                                  </font>
@@ -46,7 +46,7 @@
                         </HBox>
                         <HBox prefWidth="660.0">
                            <children>
-                              <Label text="Tracks">
+                              <Label fx:id="lblTrack" text="Tracks">
                                  <font>
                                     <Font size="32.0" />
                                  </font>
